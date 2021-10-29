@@ -13,7 +13,7 @@
   <p align="center">
     <a href="https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/exercise-tracker"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://mysterious-fjord-50481.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/delvoid/FCC-exercise-tracker">Report Bug</a>
     ·
@@ -82,6 +82,6 @@ Delvoid- [Twitter](https://twitter.com/delvoid) - delvoid.dev@gmail.com
 
 Project Link: [https://github.com/Delvoid/FCC-exercise-tracker](https://github.com/Delvoid/FCC-exercise-tracker)
 
-Demo:
+Demo: [heroku-app](https://mysterious-fjord-50481.herokuapp.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
