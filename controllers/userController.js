@@ -33,19 +33,19 @@ const user_create_exercise = async (req, res) => {
   const { id } = req.params
   const { duration, description, date } = req.body
   if (!ObjectId.isValid(id)) return res.status(404).send('Not Found')
-  const formatDate = date ? new Date(date).toDateString() : new Date().toDateString()
+
   const newExercise = await ExerciseService.createExercise({
     _id: id,
-    date: formatDate,
+    date: date ? new Date(date).toDateString() : new Date().toDateString(),
     duration,
     description,
   })
   const exercise = {
     _id: id,
     username: newExercise.user.username,
+    date: date ? new Date(date).toDateString() : new Date().toDateString(),
     duration: duration,
     description: description,
-    date: formatDate,
   }
   res.status(200).json(exercise)
 }

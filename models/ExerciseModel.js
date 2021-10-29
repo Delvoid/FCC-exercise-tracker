@@ -8,7 +8,7 @@ const ExerciseSchema = new Schema(
       required: true,
       ref: 'Users',
     },
-    date: { type: Date },
+    date: { type: String },
     duration: { type: Number, required: true },
     description: { type: String, required: true },
   },
