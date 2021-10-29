@@ -44,7 +44,7 @@ const user_create_exercise = async (req, res) => {
     _id: id,
     username: newExercise.user.username,
     date: date ? new Date(date).toDateString() : new Date().toDateString(),
-    duration: duration,
+    duration: Number(duration),
     description: description,
   }
   res.status(200).json(exercise)

@@ -19,7 +19,7 @@ const createExercise = async (body) => {
         },
       },
     })
-    return createdExercise
+    return createdExerciase
   } catch (error) {
     console.log(error)
   }
